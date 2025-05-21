@@ -1,0 +1,46 @@
+.driverdsh_table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    background-color: #fff;
+  }
+  
+  .driverdsh_table_head {
+    background-color: #f3f4f6;
+  }
+  
+  .driverdsh_th, .driverdsh_td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  .driverdsh_th {
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  .driverdsh_td {
+    color: #374151;
+  }
+  
+  .driverdsh_row:hover {
+    background-color: #f9fafb;
+  }
+  
+  .status-btn {
+    margin: 4px;
+    padding: 6px 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    cursor: pointer;
+  }
+  
+  .status-btn:hover {
+    background-color: #0056b3;
+  }
+  

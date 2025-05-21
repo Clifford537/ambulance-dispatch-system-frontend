@@ -1,0 +1,188 @@
+/* incidents_styles.css */
+
+/* General container styles */
+.incidents_container {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.incidents_title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.incidents_map_title {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Toggle Button */
+.toggle_button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 20px 0;
+  transition: background-color 0.3s ease;
+}
+
+.toggle_button:hover {
+  background-color: #0056b3;
+}
+
+/* Incidents Table Styles */
+.incidents_table_wrapper {
+  margin-top: 20px;
+}
+
+.incidents_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.incidents_table th, .incidents_table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.incidents_table th {
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.incidents_table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.incidents_table td {
+  color: #6c757d;
+}
+
+/* Modal Styles */
+.incidents_modal_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure it's on top */
+}
+
+.incidents_modal_content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  width: 450px;
+  max-width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.3s ease-out;
+}
+
+.incidents_modal_title {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.incidents_form_input, .incidents_form_select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #495057;
+}
+
+.incidents_form_input:focus, .incidents_form_select:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+.incidents_form_buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.incidents_form_button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 48%;
+}
+
+.incidents_form_button--submit {
+  background-color: #28a745;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.incidents_form_button--submit:hover {
+  background-color: #218838;
+}
+
+.incidents_form_button--cancel {
+  background-color: #dc3545;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.incidents_form_button--cancel:hover {
+  background-color: #c82333;
+}
+
+.incidents_form_button:hover {
+  opacity: 0.9;
+}
+
+/* Animation for Modal */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Center and style the map container */
+.incidents_map {
+  height: 450px;
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto; /* Center horizontally */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  z-index: 1;
+}
+
+/* Add interaction feedback */
+.leaflet-container {
+  cursor: grab;
+  border: 1px solid #ccc;
+}
+
+/* Optional: make markers clickable more intuitively */
+.leaflet-marker-icon {
+  transition: transform 0.2s;
+}
+.leaflet-marker-icon:hover {
+  transform: scale(1.2);
+}

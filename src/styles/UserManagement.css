@@ -1,0 +1,52 @@
+/* User Management Styles */
+
+.user-management-container {
+    padding: 16px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-management-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.user-management-container h2 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.user-management-container input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.user-management-container button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.user-management-container button:hover {
+    background-color: #0056b3;
+}
+
+.user-management-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-management-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}

@@ -1,0 +1,111 @@
+.managedriver_container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.managedriver_title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.managedriver_btn {
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.managedriver_btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.managedriver_btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.managedriver_btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.managedriver_btn-danger:hover {
+  background-color: #a71d2a;
+}
+
+.managedriver_btn-sm {
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+.managedriver_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+.managedriver_table th,
+.managedriver_table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.managedriver_table th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
+
+.managedriver_modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.managedriver_modal {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.managedriver_modal h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.managedriver_modal label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.managedriver_modal input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.95rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 0.25rem;
+}
+
+.managedriver_modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
