@@ -1,12 +1,39 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Emergency Response System Frontend
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A responsive and interactive frontend built with **React.js** for managing emergency response operations. This application offers real-time incident reporting, live ambulance tracking via geolocation, and role-based dashboards for administrators, dispatchers, medics, and drivers. It integrates seamlessly with a secure Node.js/Express backend using JWT authentication, enabling efficient communication and decision-making during emergencies. Designed with user experience and critical responsiveness in mind, the interface ensures clarity, speed, and reliability in high-stakes situations.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Role-based access for Admins, Dispatchers, Medics, and Drivers
+- Real-time ambulance tracking using geolocation
+- Incident reporting with map integration
+- Interactive dashboards and responsive UI
+- JWT-based secure communication with the backend
+- State management using Context API or Redux
+
+## Tech Stack
+
+- React.js
+- Axios (API communication)
+- React Router
+- Leaflet (for geolocation/map tracking)
+- Context API (for state management)
+
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+
+### Setup
+
+```bash  
+git clone https://github.com/Clifford537/ambulance-dispatch-system-frontend.git
+cd ambulance-dispatch-system-frontend
+npm install
+npm run dev
+```
